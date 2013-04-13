@@ -134,11 +134,11 @@ Now lets look at the structure of a template:
 		]
 	}
 
-**name**: The name of your project template
-**description**: A description what this project is
-**default_project_name**: The default name for a new project
-**settings**: You can set project-specific settings here. (For more information look at this site: [Settings](http://www.sublimetext.com/docs/2/settings.html))
-**build_systems**: You can add several project-related build systems. (For more information look at this site: [Build Systems](http://docs.sublimetext.info/en/latest/file_processing/build_systems.html))
+* **name**: The name of your project template
+* **description**: A description what this project is
+* **default_project_name**: The default name for a new project
+* **settings**: You can set project-specific settings here. (For more information look at this site: [Settings](http://www.sublimetext.com/docs/2/settings.html))
+* **build_systems**: You can add several project-related build systems. (For more information look at this site: [Build Systems](http://docs.sublimetext.info/en/latest/file_processing/build_systems.html))
 
 Licence
 -------
