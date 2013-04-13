@@ -37,8 +37,10 @@ class FancyProjectsCreateNewProjectCommand(sublime_plugin.WindowCommand):
 
 		# insert packages path
 		self.template_path = self.template_path.replace("${packages}", sublime.packages_path())
+		self.template_path = self.template_path.replace("${home}", os.path.expanduser("~"))
 
 		# insert home path
+		self.user_project_path = self.user_project_path.replace("${packages}", sublime.packages_path())
 		self.user_project_path = self.user_project_path.replace("${home}", os.path.expanduser("~"))
 
 		# get the content of the template folder
