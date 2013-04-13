@@ -1,0 +1,19 @@
+{
+	"schema_version": "0.1.0",
+	"packages": [
+		{
+			"name": "Fancy Projects",
+			"description": "This plugin allows you to create any kind of project from your own custom templates.",
+			"author": "Christopher Kaster",
+			"homepage": "https://github.com/Kasoki/FancyProjects",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.1.0",
+						"url": "https://nodeload.github.com/Kasoki/FancyProjects/zip/0.1.0"
+					}
+				]
+			}
+		}
+	]
+}
