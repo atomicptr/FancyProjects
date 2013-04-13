@@ -42,7 +42,7 @@ There are multiple ways to do this:
 Add to your settings file:
 
     {
-	"project_template_directory": "path/to/templates"
+		"project_template_directory": "path/to/templates"
     }
 
 The default path is: `${packages}/FancyProjects/templates`
@@ -52,7 +52,7 @@ The default path is: `${packages}/FancyProjects/templates`
 Add to your settings file:
 
     {
-	"user_project_directory": "path/to/project/folder"
+	    "user_project_directory": "path/to/project/folder"
     }
 
 **Note**: You can use ${home} to get your home directory!
@@ -76,7 +76,7 @@ If this setting is false your new project folder will look like this:
 Add to your settings file:
 
     {
-	"use_sublime_project_format": false
+	    "use_sublime_project_format": false
     }
 
 The default setting is `true`
@@ -88,7 +88,7 @@ If this option is set to false Sublime Text will print an error message if you w
 Add to your settings file:
 
     {
-	"use_counter_if_project_folder_already_exists": false
+	    "use_counter_if_project_folder_already_exists": false
     }
 
 The default setting is `true`
