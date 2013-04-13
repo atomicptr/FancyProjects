@@ -1,5 +1,5 @@
 {
-	"schema_version": "0.1.0",
+	"schema_version": "0.1.1",
 	"packages": [
 		{
 			"name": "Fancy Projects",
@@ -9,8 +9,8 @@
 			"platforms": {
 				"*": [
 					{
-						"version": "0.1.0",
-						"url": "https://nodeload.github.com/Kasoki/FancyProjects/zip/0.1.0"
+						"version": "0.1.1",
+						"url": "https://nodeload.github.com/Kasoki/FancyProjects/zip/0.1.1"
 					}
 				]
 			}
