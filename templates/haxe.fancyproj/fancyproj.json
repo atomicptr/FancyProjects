@@ -1,0 +1,11 @@
+{
+	"name": "Haxe Project",
+	"description": "A Haxe project template",
+	"default_project_name": "NewHaxeProject",
+
+	"settings": {
+	},
+
+	"build_systems": [
+	]
+}

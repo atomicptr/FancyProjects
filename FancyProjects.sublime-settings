@@ -1,0 +1,13 @@
+{
+	// The folder where your templates are stored.
+	"project_template_directory": "${packages}/FancyProjects/templates",
+
+	// your project folder
+	"user_project_directory": "${home}/Projects",
+
+	// use the sublime project format?
+	"use_sublime_project_format": true,
+
+	// use counter if folder already exists (exp. NewProject, NewProject2, NewProject3, ...)
+	"use_counter_if_project_folder_already_exists": true
+}

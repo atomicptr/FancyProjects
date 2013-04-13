@@ -1,0 +1,11 @@
+{
+	"name": "C++ Project",
+	"description": "A C++ project template",
+	"default_project_name": "NewCppProject",
+
+	"settings": {
+	},
+
+	"build_systems": [
+	]
+}

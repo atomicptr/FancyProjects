@@ -1,0 +1,24 @@
+[
+	{
+		"caption": "Fancy Projects: Create new project",
+		"command": "fancy_projects_create_new_project"
+	},
+	{
+		"caption": "Fancy Projects: Open template folder",
+		"command": "fancy_projects_open_template_folder"
+	},
+	{
+		"caption": "Preferences: Fancy Projects Settings - Default",
+		"command": "open_file",
+		"args": {
+			"file": "${packages}/FancyProjects/FancyProjects.sublime-settings"
+		}
+	},
+	{
+		"caption": "Preferences: Fancy Projects Settings - User",
+		"command": "open_file",
+		"args": {
+			"file": "${packages}/User/FancyProjects.sublime-settings"
+		}
+	}
+]

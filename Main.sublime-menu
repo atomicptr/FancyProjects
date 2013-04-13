@@ -1,0 +1,39 @@
+[
+	{
+		"id": "project",
+		"children": [
+			{
+				"caption": "Fancy Projects: Create new project",
+				"id": "fancy_project_create_new",
+				"command": "fancy_projects_create_new_project"
+			},
+			{
+				"caption": "Fancy Projects: Open template folder",
+				"id": "fancy_project_template_folder",
+				"command": "fancy_projects_open_template_folder"
+			},
+			{
+				"caption": "Fancy Projects: Preferences",
+				"id": "fancy_project_preferences",
+				"children": [
+					{
+						"caption": "Preferences - Default",
+						"id": "fancy_project_preferences_user",
+						"command": "open_file",
+						"args": {
+							"file": "${packages}/FancyProjects/FancyProjects.sublime-settings"
+						}
+					},
+					{
+						"caption": "Preferences - User",
+						"id": "fancy_project_preferences_user",
+						"command": "open_file",
+						"args": {
+							"file": "${packages}/User/FancyProjects.sublime-settings"
+						}
+					}
+				]
+			}
+		]
+	}
+]
