@@ -154,7 +154,6 @@ class FancyProjectsCreateNewProjectCommand(sublime_plugin.WindowCommand):
 
 			for item in bsystem:
 				value = bsystem[item]
-				print value, type(value)
 				build_systems += "\"%s\": %s," % (item, "\"%s\"" % value if isinstance(value, unicode) or isinstance(value, str) else value)
 
 			if build_systems.endswith(","):
